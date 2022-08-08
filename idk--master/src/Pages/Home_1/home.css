@@ -1,0 +1,21 @@
+.mainContainer{
+    overflow: hidden;
+
+}
+
+
+.homeContainer{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap:30px
+     
+   
+}
+
+.home_header1{
+    width:1024px;
+    font-size: 20px;
+}
+

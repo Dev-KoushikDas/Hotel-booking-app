@@ -1,0 +1,60 @@
+.featured_1{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+.featured_2{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+.featuredItem{
+    position: relative;
+    color: white;
+   
+    height: 250px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+
+
+.featuredImg{
+  
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.featuredImg:hover{
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+
+.featuredbg{
+    background-color: black;
+    color: black;
+    position:absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 95px;
+    opacity: 30%;
+}
+
+.featuredTitles{
+    
+    position:absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
